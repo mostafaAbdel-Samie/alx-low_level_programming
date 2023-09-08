@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "inter coment "
+read comet 
+git add .
+dit commit -m "${comet}"
+git push 
