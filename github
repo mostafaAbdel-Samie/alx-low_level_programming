@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "inter coment "
-read comet 
+read nam
 git add .
-dit commit -m "${comet}"
+git commit -m "${nam}"
 git push 
