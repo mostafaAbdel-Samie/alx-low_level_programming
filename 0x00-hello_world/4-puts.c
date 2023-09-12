@@ -1,6 +1,7 @@
 #include <stdio.h>
+void mean(){puts("\"Programming is like building a multilingual puzzle");}
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
+mean();
 return (0);
 }
