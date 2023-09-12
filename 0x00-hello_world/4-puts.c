@@ -1,5 +1,5 @@
 #include <stdio.h>
-void mean()
+void mean(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 }
