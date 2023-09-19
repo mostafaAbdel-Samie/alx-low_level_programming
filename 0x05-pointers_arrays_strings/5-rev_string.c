@@ -12,14 +12,14 @@ void rev_string(char *s)
 	char temp;
 
 	/*find string ldigth*/
-	for (l = 0; s[l] != '\n'; ++l)
+	for (l = 0; s[l] != '\0'; ++l)
 		;
 
 	/*swap tne string bay looping*/
 	for (i = 0; i < 1 / 2; i++)
 	{
 		temp = s[i];
-		s[i] = s[l - 1 - i];
+		s[i] = s[l - 1 - i];/*-1 beacos */
 		s[l - 1 - i] = temp;
 	}
 }
