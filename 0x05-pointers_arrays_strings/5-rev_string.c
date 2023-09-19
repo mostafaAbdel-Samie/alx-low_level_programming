@@ -18,7 +18,7 @@ void rev_string(char *s)
 	/*swap tne string bay looping*/
 	for (i = 0; i < 1 / 2; i++)
 	{
-		temp = s[i]
+		temp = s[i];
 		s[i] = s[l - 1 - i];
 		s[l - 1 - i] = temp;
 	}
