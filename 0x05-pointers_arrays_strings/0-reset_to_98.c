@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  * reset_to_98 - taste
- *               cat 
+ *               cat
  *
  *@n: int paraneter
  *
- * Return: nothing 
+ * Return: nothing
  */
 void reset_to_98(int *n)
 {
