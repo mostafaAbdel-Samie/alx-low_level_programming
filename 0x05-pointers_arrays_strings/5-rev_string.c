@@ -16,7 +16,7 @@ void rev_string(char *s)
 		;
 
 	/*swap tne string bay looping*/
-	for (i = 0; i < 1 / 2; i++)
+	for (i = 0; i < l / 2; i++)
 	{
 		temp = s[i];
 		s[i] = s[l - 1 - i];/*-1 beacos */
