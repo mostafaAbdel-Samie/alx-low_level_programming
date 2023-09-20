@@ -4,6 +4,7 @@
  * @s: kdhcjdh
  * Return: nmbdschdgbc
  */
+
 int _atoi(char *s)
 {
 	unsigned int num = 0;
