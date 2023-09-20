@@ -19,5 +19,5 @@ int _atoi(char *s)
 			break;
 	} while (*s++);
 
-	return (nam * sing);
+	return (nam * sign);
 }
