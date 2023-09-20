@@ -4,7 +4,6 @@
  * @s: kdhcjdh
  * Return: nmbdschdgbc
  */
-
 int _atoi(char *s)
 {
 	unsigned int num = 0;
@@ -19,5 +18,5 @@ int _atoi(char *s)
 			break;
 	} while (*s++);
 
-	return (nam * sign);
+	return (num * sign);
 }
