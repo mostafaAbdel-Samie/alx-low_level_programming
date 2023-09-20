@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - fdjhfvjkdvbnjv
+ * main - fdjhfvjkdvbnjvhggfhgfhyg jvgfg fer 101- ctacke
  * Return: zero
  */
 int main(void)
