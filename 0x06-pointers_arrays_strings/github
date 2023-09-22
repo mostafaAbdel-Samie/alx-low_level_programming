@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "inter coment "
+read nam
+git add .
+git commit -m "${nam}"
+git push 

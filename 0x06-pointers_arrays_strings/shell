@@ -1,0 +1,4 @@
+#!/bin/bash
+read nam
+echo "#include \"main.h\"" > ${nam}
+vi ${nam}
