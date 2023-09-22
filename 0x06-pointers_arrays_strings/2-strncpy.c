@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncpy - the funchion that copies a string
+ * _strncpy - A funchion that copies a string
  *
  * @dest: pointer to destination input buffet
  * @src: pointer to source input buffer
@@ -8,6 +8,7 @@
  *
  * Return: @dest
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
@@ -28,7 +29,7 @@ char *_strncpy(char *dest, char *src, int n)
 	 */
 	while (i < n)
 	{
-		dest[i] ='\0';
+		dest[i] = '\0';
 		i++;
 	}
 	return (dest);
