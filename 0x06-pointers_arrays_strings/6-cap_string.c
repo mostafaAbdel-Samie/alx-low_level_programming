@@ -11,15 +11,15 @@ int isLower(char c)
 }
 
 /**
- * isDlimiter - determined whethar ascil is a deloniter
+ * isDelimiter - determined whethar ascil is a deloniter
  * @c: character
  * Return: 1 if true, 0 if false
  */
 
-int isDlimiter(char c)
+int isDelimiter(char c)
 {
 	int i;
-	char delimiter[] = "\t\n,.!?\"()()";
+	char delimiter[] = " \t\n,.!?\"[]{}";
 
 	for (i = 0; i < 12; i++)
 		if (c == delimiter[i])
