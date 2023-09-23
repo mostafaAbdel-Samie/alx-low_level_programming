@@ -48,7 +48,7 @@ char *cap_string(char *s)
 			foundDelimit = 0;
 		}
 		else
-			foundDelimi = 0;
+			foundDelimit = 0;
 		s++;
 	}
 	return (ptr);
