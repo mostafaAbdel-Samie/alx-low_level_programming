@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * isLower - deternines whether ascil is lowercase
- * @c: charecter
+ * @c: charecte r
  * Return: 1 if troe, 0 if false
  */
 char isLower(char c)
