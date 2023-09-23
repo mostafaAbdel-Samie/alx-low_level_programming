@@ -5,7 +5,7 @@
  * @c: charecte r
  * Return: 1 if troe, 0 if false
  */
-char isLower(char c)
+int isLower(char c)
 {
 	return (c >= 97 && c <= 122);
 }
