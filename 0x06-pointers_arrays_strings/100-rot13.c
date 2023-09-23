@@ -4,7 +4,7 @@
  * @s: input string
  * Return: encoded string
  */
-char *rout13(char *s)
+char *rot13(char *s)
 {
 	int i;
 
