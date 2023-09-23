@@ -10,7 +10,7 @@
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	/*iocal variatle declarat */
+	/*iocal variatle declaration */
 	int i = 0, j = 0, k, l = 0, f, s, d = 0;
 
 	while (n1[i] != '\0')

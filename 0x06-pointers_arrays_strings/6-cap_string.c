@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * isLower - deternines whether ascil is lowercase
  * @c: charecter
