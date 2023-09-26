@@ -7,13 +7,13 @@
  */
 char *_strchr(char *s, char c)
 {
-	int arr;
+	int ix;
 
-	for (arr = 0; s[arr] > '\0' ; arr++)
+	for (ix = 0; s[ix] >= '\0' ; ix++)
 	{
-		if (s[arr] == c)
+		if (s[ix] == c)
 		{
-			return (s + arr);
+			return (s + ix);
 		}
 	}
 	return ('\0');
